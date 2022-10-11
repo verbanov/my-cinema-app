@@ -9,13 +9,12 @@ Orders: Users can place orders through the shopping cart, pre-generated tickets 
 ## 🚀 Project structure
 **The project has an N-Tier Architecture**
 - Controller - This level allows the user to work with this application.
-- DTO - Is responsible for receiving and sending information to the client in a certain prepared form.
 - Service - This level of architecture is responsible for processing the data received from the DAO level.
 - DAO - This level of architecture is responsible for communicating with the database.
-- DB - database based on MySQL server.
+- MySQL database.
 - DB diagram:
 
-![](cinema-project-db-.jpg)
+![](cinema-database-project.jpg)
 
 ## 🚀 Features
 - Registration
